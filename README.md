@@ -1,4 +1,4 @@
-#### Card Component     
+### Card Component     
 The Card component is used to display information in a card-like layout. It consists of a header section, a body section, and a button at the bottom.  
 
 ## Props   
