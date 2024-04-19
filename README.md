@@ -1,11 +1,21 @@
-# React + Vite
+### Card Component     
+The Card component is used to display information in a card-like layout. It consists of a header section, a body section, and a button at the bottom.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Props   
+The Card component accepts the following props:
 
-Currently, two official plugins are available:
+user: An object containing information about the card. It should have the following properties:
+   head: The title of the card.
+   price: The price of the card.
+   user: The type of user.
+   id: An identifier for special cases. Set to 0 or 1 for specific styling.   
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Styling  
+The Card component comes with pre-defined styles in the Card.css file. You can customize the styles by modifying this file.  
 
-<i className="fa fa-check" aria-hidden="true"></i>
-      <i className="fa fa-times" aria-hidden="true"></i>
+## Components   
+The Card component is composed of the following sub-components:   
+
+Header: Displays the title and price of the card.   
+Body: Contains the content of the card, such as user information and features.   
+Button: A button at the bottom of the card.   
